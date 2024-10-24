@@ -207,12 +207,12 @@
 	"tooltip-format-deactivated": "Idle_inhibitor not active",
 	"format": "{icon}",
 	"format-icons": {
-		"activated": " ",
-		"deactivated": " ",
+		"activated": " ",
+		"deactivated": " ",
 	}
 },
 "keyboard-state": {
-	//"numlock": true,
+	"numlock": true,
 	"capslock": true,
 	"format": {
 		"numlock": "N {icon}",
@@ -234,7 +234,7 @@
 },
 "mpris": {
 	"interval": 10,
-	"format": "{player_icon} ",
+	"format": "{player_icon} <i>{dynamic}</i>",
 	"format-paused": "{status_icon} <i>{dynamic}</i>",
 	"on-click-middle": "playerctl play-pause",
 	"on-click": "playerctl previous",
@@ -384,9 +384,9 @@
 	"on-click": "activate",
 	"on-click-middle": "close",
 	"ignore-list": [
-		"wofi",
-		"rofi",
-		"kitty",
+		// "wofi",
+		// "rofi",
+		// "kitty",
     "kitty-dropterm"
 		],
 },

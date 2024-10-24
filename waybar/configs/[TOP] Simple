@@ -19,11 +19,9 @@
 "margin-top": 2,
 
 "modules-left": [	
-	"idle_inhibitor", 
-	"group/mobo_drawer",
 	"hyprland/workspaces#rw",
-	"tray",
 	"mpris", 
+	"custom/cava_mviz",
 	],
     
 "modules-center": [
@@ -32,8 +30,13 @@
 	],
     
 "modules-right": [
-	"hyprland/window",  
+	"tray",
+	"custom/separator#line",
+	"idle_inhibitor", 
+	"custom/light_dark",
+	"network#speed",
 	"battery",
+	"backlight#2",
  	"group/audio", 
 	"custom/power",
 	],
