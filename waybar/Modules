@@ -154,7 +154,7 @@
 },
 "clock#5": {
     //"format": "{:%A, %I:%M %P}", // AM PM format
-    "format": "{:%a %d | %H:%M}", // 24H
+    "format": "  {:%a %d |   %H:%M}", // 24H
 	"format-alt": "{:%A, %d %B, %Y (%R)}"
 },
 "cpu": {
@@ -215,12 +215,12 @@
 	"numlock": true,
 	"capslock": true,
 	"format": {
-		"numlock": "N {icon}",
-		"capslock": "󰪛 {icon}",
+		"numlock": "󰰒 {icon} ",
+		"capslock": "󰯱 {icon} ",
 	},
 	"format-icons": {
-		"locked": "",
-		"unlocked": ""
+		"locked": " ",
+		"unlocked": " "
 	},
 },
 "memory": {

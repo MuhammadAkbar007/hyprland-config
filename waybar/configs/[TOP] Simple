@@ -25,17 +25,22 @@
 	],
     
 "modules-center": [
-	"clock#2",
+	"clock#5",
 	"custom/swaync",
+	"hyprland/window",
 	],
     
 "modules-right": [
+	"cpu",
+	"memory",
+	"custom/separator#line",
 	"tray",
 	"custom/separator#line",
 	"idle_inhibitor", 
 	"custom/light_dark",
 	"network#speed",
 	"battery",
+	"keyboard-state",
 	"backlight#2",
  	"group/audio", 
 	"custom/power",
