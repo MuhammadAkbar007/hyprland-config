@@ -20,6 +20,7 @@
 
 "modules-left": [	
 	"hyprland/workspaces#rw",
+	"custom/separator#line",
 	"mpris", 
 	"custom/cava_mviz",
 	],
@@ -35,12 +36,10 @@
 	"memory",
 	"custom/separator#line",
 	"tray",
-	"custom/separator#line",
+	"network#speed",
 	"idle_inhibitor", 
 	"custom/light_dark",
-	"network#speed",
 	"battery",
-	"keyboard-state",
 	"backlight#2",
  	"group/audio", 
 	"custom/power",

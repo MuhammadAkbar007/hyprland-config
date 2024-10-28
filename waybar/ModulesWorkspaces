@@ -183,7 +183,12 @@
 		"class<zen-alpha>": "󰰷 ", //Zen Browser
 		"class<waterfox|waterfox-bin>": " ",
 		"class<microsoft-edge>": " ",
-		"class<vlc>": "󰕼 "
+		"class<vlc>": "󰕼 ",
+		"class<gnome-pomodoro>": " ",
+		"class<jetbrains-idea-ce>": " ",
+		"class<jetbrains-idea>": " ",
+		"class<.*[Cc]lementine.*>": "󱁇 ",
+		"class<[Bb]rave-browser>": "🦁 ",
 		}   
 	},
 

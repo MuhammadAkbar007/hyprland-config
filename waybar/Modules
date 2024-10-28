@@ -233,9 +233,9 @@
 	"on-click-right": "kitty --title btop sh -c 'btop'"
 },
 "mpris": {
-	"interval": 10,
+	"interval": 3,
 	"format": "{player_icon} <i>{dynamic}</i>",
-	"format-paused": "{status_icon} <i>{dynamic}</i>",
+	"format-paused": "{player_icon} <i>{dynamic}</i>",
 	"on-click-middle": "playerctl play-pause",
 	"on-click": "playerctl previous",
 	"on-click-right": "playerctl next",
@@ -244,6 +244,7 @@
 	"on-scroll-down": "$HOME/.config/hypr/scripts/Volume.sh --dec",
 	"smooth-scrolling-threshold": 1,
 	"player-icons": {
+		"clementine": "󱁇 ",
 		"chromium": "",
 		"default": "",
 		"firefox": "",
