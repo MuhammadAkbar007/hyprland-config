@@ -1,4 +1,3 @@
-//* ---- 💫 https://github.com/JaKooLit 💫 ---- *//
 /* Waybar Modules */
 
 /* NOTE: hyprland-workspaces, Custom Modules & Groups on a separate files */
@@ -42,7 +41,7 @@
 	"interval": 2,
 	"align": 0,
 	"rotate": 0,
-	//"format": "{icon} {percent}%",
+	"format": "{icon} {percent}%",
 	"format-icons": [
 		" ",
 		" ",
@@ -52,7 +51,7 @@
 		"󰃟 ",
 		"󰃠 "
 	],
-	"format": "{icon}",
+	//"format": "{icon}",
 	//"format-icons": ["","","","","","","","","","","","","","",""],
 	"tooltip-format": "backlight {percent}%",
 	"icon-size": 10,
@@ -67,7 +66,16 @@
 "backlight#2": {
   "device": "intel_backlight",
   "format": "{icon} {percent}%",
-  "format-icons": ["", ""]
+  "format-icons": [
+		" ",
+		" ",
+		" ",
+		"󰃝 ",
+		"󰃞 ",
+		"󰃟 ",
+		"󰃠 "
+	],
+  //"format-icons": ["", ""]
 },
 "battery": {
 	//"interval": 5,
@@ -245,6 +253,7 @@
 	"smooth-scrolling-threshold": 1,
 	"player-icons": {
 		"clementine": "󱁇 ",
+		"strawberry": "󱁇 ",
 		"chromium": "",
 		"default": "",
 		"firefox": "",
@@ -264,7 +273,7 @@
 },
 "network": {
 	"format": "{ifname}",
-	"format-wifi": "{icon}",
+	"format-wifi": "{icon} {essid}",
 	"format-ethernet": "󰌘",
 	"format-disconnected": "󰌙",
 	"tooltip-format": "{ipaddr}  {bandwidthUpBits}  {bandwidthDownBits}",

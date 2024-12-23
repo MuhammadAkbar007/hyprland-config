@@ -1,4 +1,3 @@
-//* ---- 💫 https://github.com/JaKooLit 💫 ---- *//
 /* Waybar Modules - Custom Modules */
 /* Basically created to reduce the lines in Waybar Modules bank */
 /* NOTE: This is only for Custom Modules */
@@ -128,9 +127,8 @@
 "custom/power": {
 	"format": "⏻ ",
 	"on-click": "$HOME/.config/hypr/scripts/Wlogout.sh",
-	"on-click-right": "$HOME/.config/hypr/scripts/ChangeBlur.sh",
 	"tooltip": true,
-	"tooltip-format": "Left Click: Logout Menu\nRight Click: Change Blur",
+	"tooltip-format": "Logout Menu",
 },
 
 "custom/swaync": {
